@@ -276,7 +276,7 @@ max-width: 1098px !important;
 	
 	
 	
-	/*List colors */
+	/*List color */
 	
 	li { 
 	
@@ -287,14 +287,17 @@ max-width: 1098px !important;
 	
 	
 	
-	/*Input fiels */
+	/*Input fiels background color */
 	
 	
-	div.rounded-[29px].border.border-border.bg-background.p-2.shadow-md.sticky.bottom-4.mt-4.w-full{
-  background-color: #000000 !important;
+	form.border.border-border.bg-background.p-2.shadow-md.sticky.bottom-4.mt-4.w-full{
+  background: #16181A !important;
 }
 
 	
+	textarea{
+		background: #16181A !important ; 
+	}
 	
 	
 	
@@ -305,7 +308,6 @@ max-width: 1098px !important;
 	
 	
 	
-	
 
 
 
@@ -324,4 +326,5 @@ max-width: 1098px !important;
 
 	
 	
+}
 }
