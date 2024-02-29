@@ -276,14 +276,24 @@ max-width: 1098px !important;
 	
 	
 	
+	/*List colors */
+	
+	li { 
+	
+	color : #83A598 !important ; 
+	}
 	
 	
 	
 	
 	
+	/*Input fiels */
 	
 	
-	
+	div.rounded-[29px].border.border-border.bg-background.p-2.shadow-md.sticky.bottom-4.mt-4.w-full{
+  background-color: #000000 !important;
+}
+
 	
 	
 	
