@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name           chat.mistral.ai - Feb 2024
+nme           chat.mistral.ai - Feb 2024
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
 @description    This user style will apply the google chivo font to everything page you visit 
@@ -291,12 +291,12 @@ max-width: 1098px !important;
 	
 	
 	form.border.border-border.bg-background.p-2.shadow-md.sticky.bottom-4.mt-4.w-full{
-  background: #16181A !important;
+  background: #12110F !important;
 }
 
 	
 	textarea{
-		background: #16181A !important ; 
+		background: #12110F !important ; 
 	}
 	
 	
@@ -305,8 +305,11 @@ max-width: 1098px !important;
 	
 	
 	
-	
-	
+	/*All of the buttons in the UI */
+	button.whitespace-nowrap{
+  background-color: #282828 !important; 
+}
+
 	
 
 
