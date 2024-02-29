@@ -14,16 +14,12 @@
 ## Description <a name="description"></a>
 
  
-This user style applies the Gruvbox color scheme to the [Gemini AI website](https://gemini.google.com), providing a more visually pleasing and consistent experience.
+This user style applies the Gruvbox color scheme to the [](), providing a more visually pleasing and consistent experience.
 
 ### Features
-- Applies the Gruvbox color scheme to all elements on the page
-- Hides the location bar for a cleaner interface and privacy when sharing screenshots 
-- Increases the width of the response container for easier reading
-- Simplifies and cleans the UI for a more streamlined experience
 
 
-
+-Increases width of the response container for better viewing 
 
 
 
