@@ -1,13 +1,8 @@
-
 /* ==UserStyle==
-@name           chat.mistral.ai - Feb 2024
-namespace      github.com/openstyles/stylus
+@name           LeChat Mistral Dark
+@namespace      https://github.com/bilalazh/Mistral-LeChat-Gruvbox-Dark
 @version        1.0.0
-@description    This user style will apply the google chivo font to everything page you visit 
-                I have made some changes in it 
-                this will not change the following 
-                    - monospace font
-                    - icons --> this theme is set up to ignore icons and dont mess up icons on most websites 
+@description    Applies user style to mistral's Lechat platform 
 @author         heybilalazhar@gmail.com
 ==/UserStyle== */
 
@@ -271,7 +266,7 @@ color: #E092BE !important;
 	div.flex.h-fit.w-full.max-w-screen-md.flex-1.flex-col.items-stretch.justify-start.gap-5.px-4{
 		
 		width: 100% !important;
-max-width: 1098px !important;
+max-width: 900px !important;
 	}
 	
 	
@@ -354,4 +349,3 @@ div.relative.h-full.w-60.border-r.bg-background.py-4.shadow-md.transition-all.le
 	
 	
 }
-
