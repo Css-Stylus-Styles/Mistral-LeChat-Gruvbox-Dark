@@ -1,8 +1,8 @@
 /* ==UserStyle==
-@name           LeChat Mistral Dark
-@namespace      https://github.com/bilalazh/Mistral-LeChat-Gruvbox-Dark
+@name           chat.mistral.ai - Mar 2024
+@namespace      github.com/openstyles/stylus
 @version        1.0.0
-@description    Applies user style to mistral's Lechat platform 
+@description    Sample one 
 @author         heybilalazhar@gmail.com
 ==/UserStyle== */
 
@@ -10,7 +10,6 @@
 
 
 @-moz-document domain("chat.mistral.ai") {
-    /* Insert code here... */
 	
 	   :root
 
@@ -338,14 +337,6 @@ div.relative.h-full.w-60.border-r.bg-background.py-4.shadow-md.transition-all.le
 	
 	
 	
-	
-	
-
-
-
-
-
-
 	
 	
 }
