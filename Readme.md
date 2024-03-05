@@ -34,8 +34,6 @@ This user style applies the Gruvbox color scheme to the [](), providing a more v
 
 
 
-
-
 ## Prerequisites <a name="Pre"></a>
 
 ### If Stylus extension is not installed you would need to install that first in order to apply the theme 

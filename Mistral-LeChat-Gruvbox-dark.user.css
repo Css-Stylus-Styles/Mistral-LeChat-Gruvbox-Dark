@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           chat.mistral.ai - Feb 2024
-@namespace      github.com/openstyles/stylus
+namespace      github.com/openstyles/stylus
 @version        1.0.0
 @description    This user style will apply the google chivo font to everything page you visit 
                 I have made some changes in it 
@@ -325,7 +325,7 @@ div.w-full.flex-col.items-center.justify-center.overflow-y-auto {
 div.relative.h-full.w-60.border-r.bg-background.py-4.shadow-md.transition-all.left-0{
 	
 	background-color : #12110F !important ; 
-	color : #D79921 !important ; 
+	color : #98971A !important ; 
 	}
 
 
