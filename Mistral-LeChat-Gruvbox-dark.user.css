@@ -1,5 +1,5 @@
 /* ==UserStyle==
-nme           chat.mistral.ai - Feb 2024
+@name           chat.mistral.ai - Feb 2024
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
 @description    This user style will apply the google chivo font to everything page you visit 
@@ -189,8 +189,10 @@ button span p {
 	}
 
 	code {
-		color : #8EC07C !important ; 
+		color : #FB4934 !important ; 
+		font-weight: 500 !important ; 
 		background-color :#12110F !important ; 
+		border-radius: 26px !important ; 
 	}
 
 
@@ -304,21 +306,27 @@ max-width: 1098px !important;
 	
 	
 	
+	/*Backgrounds of The whole thing*/
 	
-	/*All of the buttons in the UI */
-	button.whitespace-nowrap{
-  background-color: #282828 !important; 
+	/*Top bar div */
+	div.sticky.top-0.z-10.flex.h-12.w-full.flex-row.items-center.justify-between.bg-background.p-2.transition-shadow.sm\:h-16.sm\:min-h-16.shadow-md {
+  background-color: #17191B; /* change the color to your desired value */
 }
 
+
+
+/*Main Div background */
+div.w-full.flex-col.items-center.justify-center.overflow-y-auto {
+  background-color: #1D1B1A !important; /* change the color to your desired value */
+}
+
+
+	/*Yellow side bar */
+div.relative.h-full.w-60.border-r.bg-background.py-4.shadow-md.transition-all.left-0{
 	
-
-
-
-
-
-
-
-
+	background-color : #12110F !important ; 
+	color : #D79921 !important ; 
+	}
 
 
 
