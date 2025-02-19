@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           mistral dark gruvbox  
 @namespace      github.com/bilalazh/Misrallecaht
-@version        1.0.4
+@version        1.0.5
 @description    Sample one 
 @author         heybilalazhar@gmail.com
 ==/UserStyle== */
@@ -986,33 +986,35 @@ color: #fb4934 !important;
 	/*Side bar styles*/
 	
 	input[placeholder="Search..."] {
-  background-color: #282828 !important;
+  background-color: #98971a !important;
 		color : #fbf1c7 !important ; 
-		font-family: "Jetbrains Mono" !important ; 
-		
+			font-family: var(--font-BricolageGrotesque) !important ; 
+		font-stretch: semi-condensed !important ; 	
 		
 }
 
 /*Sidebaer input placeholder*/	
 	input::placeholder{
 		color : #fbf1c7 !important ; 
-		font-family: "Jetbrains Mono" !important ; 
+		font-family: var(--font-BricolageGrotesque) !important ; 
+		font-stretch: semi-condensed !important ; 
 		font-size: 0.7rem !important ; 
 	}
 	
 	
 	
 	/*Side bar background */
-	.flex.min-h-0.w-full.flex-1.flex-col{
-		background: #282828 !important ; 
+	.flex.min-h-0.w-full.flex-1.flex-col , button[data-sidebar="menu-button"] ,  div[data-sidebar="group-label"]{
+		background: #16181a !important ; 
 		
 }
 	
 
 	/*Side bar Link backgroun d*/
 	
-a.block.min-h-8.w-full.flex-1.flex-row.items-center[aria-label="Open chat"] {
+a.block.min-h-8.w-full.flex-1.flex-row.items-center[aria-label="Open chat"]  {
   background-color: #1d2021 !important; 
+	
 }
 
 
@@ -1022,7 +1024,7 @@ a.block.min-h-8.w-full.flex-1.flex-row.items-center[aria-label="Open chat"] {
 	/*All Icons*/
 	
 	svg{
-		color : #b8bb26 !important ;
+		color : #fe8019 !important ;
 		stroke-width: 2px !important ; 
 	
 	}
@@ -1035,7 +1037,7 @@ a.block.min-h-8.w-full.flex-1.flex-row.items-center[aria-label="Open chat"] {
 		background-color : red !important ; 
 		fill : #3c3836 !important ; 
 	}
-	
+
 	
 	
 	
