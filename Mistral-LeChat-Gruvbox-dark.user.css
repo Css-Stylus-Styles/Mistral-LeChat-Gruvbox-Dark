@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           mistral dark gruvbox  
 @namespace      github.com/bilalazh/Misrallecaht
-@version        1.0.6
+@version        1.0.7
 @description    Sample one 
 @author         heybilalazhar@gmail.com
 ==/UserStyle== */
@@ -682,29 +682,31 @@
 	/*Normal Texa color */
 	p{
 		color :#fbf1c7 !important ; 
-    font-family: "Literata Variable" !important;
+		font-family: var(--font-GeistSans) !important ; 
 	font-size: 0.9rem  !important  ; 
 	}
 
 
 li{
-	color :  #fbf1c7 !important ; 
-	font-family: "Linguistics Pro" !important ; 
+	color :  #d5c4a1 !important ; 
+	font-family: var(--font-GeistSans) !important ; 
 	font-size: 0.9rem  !important  ; 
 }	
 
 	li::marker {
 		color : #b8bb26 !important ; 
-		font-weight: 800 !important ; 
-		font-family: "Bricolage Grotesque" !important ; 
+		font-weight: 500 !important ; 
+		font-family: var(--font-BricolageGrotesque) !important ; 
+	font-stretch: 86% !important ;
 		
 	}
 
 	/*Bold heading and Bold in general */
 
 strong {
-	color : #689d6a !important ; 
-		font-family: "Bricolage Grotesque";
+	color : #b8bb26 !important ; 
+	font-family: var(--font-BricolageGrotesque) !important ; 
+	font-stretch: 96% !important ; 
 }
 
 	h1 , h2 , h3 , h4 , h5 , h6  {
@@ -808,26 +810,91 @@ strong {
 	
 	
 	
+
+
+	/*All Icons*/
+	
+	svg{
+		color : #98971a !important ;
+		stroke-width: 2px !important ; 
+	
+	}
+	
+	
+	
+	/*Anaswer Page Mistral Logo */
+	svg.fill-brand-orange.text-background{
+		color : #b8bb26 !important ; 
+		background-color : red !important ; 
+		fill : #3c3836 !important ; 
+	}
+
+	
+	
+	
+	
 	/*LINKS */
 	/*link color */
 	a {
 		color: #fb4934 !important;
-		font-family: 'Bricolage Grotesque' !important;
-		text-decoration: underline !important ; 
-		
-		font-weight: 600 !important ; 
+		font-family: var(--font-BricolageGrotesque) !important; 
+		font-stretch: 89% !important ;  
+		text-decoration: none !important ; 
+		font-weight: 500 !important ; 
 		
 	}
 
 	/*link hover */
 	a:hover {
-		color: #5c7b42 !important;
+		color: #b8bb26 !important;
 		transition: color 0.5s ease-in-out !important;
-		font-family: 'Bricolage Grotesque' !important;
-		text-decoration: none !important;
+		font-family: var(--font-BricolageGrotesque) !important; 
+		font-weight: 400 !important ; 
+		
+		text-decoration: underline !important ; 
+		font-stretch: 95% !important ;  
+		
+		
 		
 	}
 	
+	
+	/*Links that are only Related to the Links inside the interface */
+	p a:not(a.mi-ref.cursor-pointer){
+		padding: 0rem 1rem !important ; 
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*Side Bar Styles */
 	
 	
 	
@@ -852,13 +919,42 @@ strong {
 }
 
 	
+	/*New Chat and Upgrade to Le chat */
+	a.peer\/menu-button.flex.w-full.items-center.gap-2.overflow-hidden.rounded-md.p-2.text-left.outline-none{
+  color: #fabd2f !important;
+		text-decoration: none !important ; 
+		font-family: var(--font-BricolageGrotesque) !important; 
+}
+
+	
+	/*Hover For Side bar */
+	a.peer\/menu-button.flex.w-full.items-center.gap-2.overflow-hidden.rounded-md.p-2.text-left.outline-none:hover{
+  color: #d79921 !important;
+		text-decoration: none !important ; 
+		font-family: var(--font-BricolageGrotesque) !important; 
+}
+
 	
 	
 	
 	
 	
+		
+	/*Side bar background */
+	.flex , button[data-sidebar="menu-button"] ,  div[data-sidebar="group-label"] , div.data-sidebar {
+		background: #1a1b1d !important ; 
+		
+}
 	
+
+	/*Side bar Link background*/
 	
+a.block.min-h-8.w-full.flex-1.flex-row.items-center[aria-label="Open chat"]  {
+  background-color: #1d1b1a !important; 
+	
+}
+
+
 	
 	
 	
@@ -976,7 +1072,6 @@ color: #fb4934 !important;
 
 	
 
-zzz
 	
 	
 	
@@ -1021,41 +1116,6 @@ zzz
 	}
 	
 	
-	
-	/*Side bar background */
-	.flex.min-h-0.w-full.flex-1.flex-col , button[data-sidebar="menu-button"] ,  div[data-sidebar="group-label"]{
-		background: #16181a !important ; 
-		
-}
-	
-
-	/*Side bar Link backgroun d*/
-	
-a.block.min-h-8.w-full.flex-1.flex-row.items-center[aria-label="Open chat"]  {
-  background-color: #1d2021 !important; 
-	
-}
-
-
-	
-	
-
-	/*All Icons*/
-	
-	svg{
-		color : #fe8019 !important ;
-		stroke-width: 2px !important ; 
-	
-	}
-	
-	
-	
-	/*Anaswer Page Mistral Logo */
-	svg.fill-brand-orange.text-background{
-		color : #b8bb26 !important ; 
-		background-color : red !important ; 
-		fill : #3c3836 !important ; 
-	}
 
 	
 	
@@ -1064,6 +1124,14 @@ a.block.min-h-8.w-full.flex-1.flex-row.items-center[aria-label="Open chat"]  {
 	
 	
 	
+	
+	
+	
+	
+
+	
+	
+	/*Not sure what this applies to */
 	
 	.fill-muted-foreground {
   fill: #fb4934 !important; 
