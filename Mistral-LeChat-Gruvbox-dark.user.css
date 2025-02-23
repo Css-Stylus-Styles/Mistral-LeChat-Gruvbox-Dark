@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           mistral dark gruvbox  
 @namespace      github.com/bilalazh/Misrallecaht
-@version        1.0.5
+@version        1.0.6
 @description    Sample one 
 @author         heybilalazhar@gmail.com
 ==/UserStyle== */
@@ -831,7 +831,26 @@ strong {
 	
 	
 	
-	
+	/*Side bar Old Chat Name */
+	a.group\/item{
+  color: #b8bb26 !important;
+		text-decoration: none !important ; 
+		font-family: var(--font-BricolageGrotesque) !important; 
+		font-size: 0.7rem !important ; 
+		font-stretch: semi-condensed !important; 
+}
+
+	/*Side bar Old chats hover*/
+	a.group\/item:hover{
+  color: #ffd29c !important;
+		opacity: 1 !important ; 
+		background: #3c3836 !important ; 
+		text-decoration: none !important ; 
+		font-family: var(--font-BricolageGrotesque) !important; 
+		font-size: 0.7rem !important ; 
+		font-stretch: semi-condensed !important; 
+}
+
 	
 	
 	
@@ -957,7 +976,7 @@ color: #fb4934 !important;
 
 	
 
-
+zzz
 	
 	
 	
