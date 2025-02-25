@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           mistral dark gruvbox  
 @namespace      github.com/bilalazh/Misrallecaht
-@version        1.0.8
+@version        1.0.9
 @description    Sample one 
 @author         heybilalazhar@gmail.com
 ==/UserStyle== */
@@ -957,7 +957,19 @@ font-stretch: 80% !important ;
 	}
 
 
+	
+	/*Sidebar Account Information */
+/* Account Infomration */
+div.truncate.font-semibold  , .text-text-tertiary{
+	
+	color :  #7c6f64 !important ; 
+	font-family: "Bricolage Grotesque Variable" !important ; 
+	font-weight: 550 !important ; 
+	font-stretch: 93% !important ; 
+	font-size: 0.8rem !important ; 
 
+
+}
 
 
 
