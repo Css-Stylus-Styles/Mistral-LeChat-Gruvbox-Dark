@@ -1,3 +1,4 @@
+
 /* ==UserStyle==
 @name           mistral dark gruvbox  
 @namespace      github.com/bilalazh/Misrallecaht
@@ -503,6 +504,14 @@
 
 
 
+	
+	
+	@font-face {
+    font-family: "TiemposText";
+    src: local("TiemposText-Regular");
+    font-style: normal;
+    font-weight: 400;
+}
 
 
 
@@ -679,15 +688,21 @@
 	/*GENERAL STYLES*/
 	/*Normal Texa color */
 	p {
-		color: #fbf1c7 !important;
-		font-family: var(--font-GeistSans) !important;
+		color: #d5c4a1 !important;
+		/*font-family: var(--font-GeistSans) !important;*/
+		
+    font-family: "TiemposText" !important;
+		
 		font-size: 0.9rem !important;
 	}
 
 
 	li {
 		color: #d5c4a1 !important;
-		font-family: var(--font-GeistSans) !important;
+
+		/*font-family: var(--font-GeistSans) !important;*/
+		
+    font-family: "TiemposText" !important;
 		font-size: 0.9rem !important;
 	}
 
@@ -970,19 +985,45 @@ div.truncate.font-semibold  , .text-text-tertiary{
 
 
 }
+/*Account Information hover */
+div.truncate.font-semibold:hover , .text-text-tertiary:hover{
+	color :  #b8bb26 !important ; 
+	font-family: "Bricolage Grotesque Variable" !important ; 
+	font-weight: 550 !important ; 
+	font-stretch: 93% !important ; 
+	font-size: 0.8rem !important ; 
+}
+	/*Side bar Account Information */
+	/* Account Infomration */
+	div.truncate.font-semibold,
+	.text-text-tertiary {
+		color: #7c6f64 !important;
+		font-family: "Bricolage Grotesque Variable" !important;
+		font-weight: 550 !important;
+		font-stretch: 93% !important;
+		font-size: 0.8rem !important;
+	}
 
+	/*Account Information hover */
+	div.truncate.font-semibold:hover,
+	.text-text-tertiary:hover {
+		color: #b8bb26 !important;
+		font-family: "Bricolage Grotesque Variable" !important;
+		font-weight: 550 !important;
+		font-stretch: 93% !important;
+		font-size: 0.8rem !important;
+	}
 
-
-
-
-
-
-
-
-
-
-
-
+	/*Side bar Account Information */
+	/* Account Infomration */
+	div.truncate.font-semibold,
+	.text-text-tertiary {
+		color: #7c6f64 !important;
+		font-family: "Bricolage Grotesque Variable" !important;
+		font-weight: 550 !important;
+		font-stretch: 93% !important;
+		font-size: 0.8rem !important;
+	}
 
 
 
@@ -1186,3 +1227,4 @@ div.truncate.font-semibold  , .text-text-tertiary{
 		box-sizing: content-box !important;
 	}
 }
+
